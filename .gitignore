@@ -1,0 +1,11 @@
+link_items.txt
+link2_items.txt
+link3_items.txt
+link4_items.txt
+chrome_driver/
+
+/__pycache__/
+chromedriver/
+venv/
+img/
+test.py
