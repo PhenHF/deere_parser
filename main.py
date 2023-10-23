@@ -145,7 +145,8 @@ class getXlsx(driver):
                 return_details.append(advanced_detail['Return Details'])
                 warranty_information.append(advanced_detail['Warranty Information'])
                 ite += 1
-            except:
+            except Exception as e:
+                print(e)
                 return {'name': name,
                 'hierarchy': hierarchy,
                 'description': description,
