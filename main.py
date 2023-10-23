@@ -19,7 +19,7 @@ class getXlsx(driver):
 
 
     def read_txt(self):
-        with open('link_items.txt', mode='r', encoding='UTF-8') as f:
+        with open('link.txt', mode='r', encoding='UTF-8') as f:
             return f.readlines()
 
 
