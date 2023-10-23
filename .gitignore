@@ -9,3 +9,5 @@ chromedriver/
 venv/
 img/
 test.py
+*.xlsx
+*.png

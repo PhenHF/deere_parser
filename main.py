@@ -189,5 +189,5 @@ class getXlsx(driver):
                         'Фото': self.items['img_name']})
             df.to_excel(f'info_{self.enum}.xlsx', index=False)
 
-xls = getXlsx()
+xls = getXlsx(1, 0, 20)
 xls.xlsx_write()
