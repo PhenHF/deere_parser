@@ -122,12 +122,8 @@ class getXlsx(driver):
         warranty_information = []
         price = []
 
-        no_dup = []
-        for i in items:
-            if i not in no_dup:
-                no_dup.append(i)
         ite = 0
-        for i in no_dup[self.start: self.end]:
+        for i in items[self.start: self.end]:
             try:
                 self.driver.get(i)
                 time.sleep(20)
